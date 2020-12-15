@@ -11,3 +11,5 @@
 # no welcome page
 !.hushlogin
 
+# vim (basic.vim from https://github.com/amix/vimrc/tree/master/vimrcs)
+!.vimrc
