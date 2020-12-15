@@ -381,3 +381,12 @@ function! VisualSelection(direction, extra_filter) range
     let @/ = l:pattern
     let @" = l:saved_reg
 endfunction
+
+"""""""""""""""""""""""""""""""""""""""""""""
+" wayne's
+"""""""""""""""""""""""""""""""""""""""""""""
+
+" set line number
+set number
+" set background color of the line number
+highlight LineNR ctermfg=grey ctermbg=black
