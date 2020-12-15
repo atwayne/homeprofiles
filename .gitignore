@@ -1,0 +1,13 @@
+# ignore everything
+*
+
+# gitignore for this repo
+!.gitignore
+
+# bash configuration
+!.bash_aliases
+!.bashrc
+
+# no welcome page
+!.hushlogin
+
