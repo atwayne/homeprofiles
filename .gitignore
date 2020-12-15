@@ -4,6 +4,9 @@
 # gitignore for this repo
 !.gitignore
 
+# gitconfig
+!.gitconfig
+
 # bash configuration
 !.bash_aliases
 !.bashrc
