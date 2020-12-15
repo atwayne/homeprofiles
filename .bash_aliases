@@ -10,4 +10,10 @@ alias .....='cd ../../../../'
 
 alias azure='cd ~/repos/azure/'
 alias github='cd ~/repos/github/'
-#alias local='cd ~/repos/local/'
+
+alias path='echo -e ${PATH//:/\\n}'
+alias now='date +"%T"'
+alias nowtime=now
+alias nowdate='date +"%d-%m-%Y"'
+
+alias ports='netstat -tulanp'
