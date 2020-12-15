@@ -7,6 +7,7 @@
 	st = status
 	unstage = reset HEAD --
 	last = log -1 HEAD
+	who = "! git config user.email; git config user.name"
 [credential]
 	helper = store
 [user]
