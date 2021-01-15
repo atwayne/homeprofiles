@@ -17,3 +17,10 @@ alias nowtime=now
 alias nowdate='date +"%d-%m-%Y"'
 
 alias ports='netstat -tulanp'
+
+alias cls='clear'
+
+alias dcup='docker-compose up'
+alias dcpull='docker-compose pull'
+alias dcbuild='docker-compose build'
+alias dtail='docker logs -tf --tail="50" "$@"'
