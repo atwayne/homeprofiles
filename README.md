@@ -20,9 +20,9 @@ git remote add -t \* -f origin git@github.com:atwayne/homeprofiles.git
 git checkout master
 ```
 
-## Tips:
+## Customize:
 - By default everything within the home directory is ignored. Until you remove it from the exclude list.  
 Check .gitignore for more information.
 - It's possible to keep some configuration locally instead of make everything public. For example:
-Create file `.bash_aliases_local` for local bash aliases.
-Create file `.gitproxy` for local git proxy settings.
+    - Create file `.bash_aliases_local` for local bash aliases.
+    - Create file `.gitproxy` for local git proxy settings.
