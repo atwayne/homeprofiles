@@ -1,5 +1,5 @@
 # ignore everything
-*
+/*
 
 # gitignore for this repo
 !.gitignore
@@ -16,3 +16,6 @@
 
 # vim (basic.vim from https://github.com/amix/vimrc/tree/master/vimrcs)
 !.vimrc
+
+# .github files
+!.github
