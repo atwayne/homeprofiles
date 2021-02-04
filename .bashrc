@@ -121,3 +121,6 @@ BLUE="\[\033[0;36m\]"
 NO_COLOR="\[\033[0m\]"
 
 PS1="[$BLUE\w$GREEN\$(parse_git_branch)$NO_COLOR]\$ "
+
+# Ubuntu: set vim as default editor
+export EDITOR=/usr/bin/vim
