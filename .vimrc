@@ -390,3 +390,6 @@ endfunction
 set number
 " set background color of the line number
 highlight LineNR ctermfg=grey ctermbg=black
+
+" netrw open file in a split window
+let g:netrw_browse_split = 1
