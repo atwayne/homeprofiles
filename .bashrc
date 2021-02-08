@@ -124,3 +124,7 @@ PS1="[$BLUE\w$GREEN\$(parse_git_branch)$NO_COLOR]\$ "
 
 # Ubuntu: set vim as default editor
 export EDITOR=/usr/bin/vim
+
+# npm packages without sudo
+NPM_PACKAGES="$HOME/.npm-packages"
+export PATH="$PATH:$NPM_PACKAGES/bin"

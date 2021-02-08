@@ -19,3 +19,6 @@
 
 # .github files
 !.github
+
+# .npmrc
+!.npmrc

@@ -8,6 +8,7 @@ Obviously, it's created as a personal collection but could be used as a fork.
 - with `.bashrc` and `.bash_aliases` you will get a decent bash configuration and some handy aliases
 - with `.gitconfig` you will have some basic git configuration  
 - with `.vimrc` you will have decent vim set up 
+- with `.npmrc` you will have some handy set up like "install npm package globally without sudo"
 
 ## Install
 To initialize your home directory, start with the following commands.
