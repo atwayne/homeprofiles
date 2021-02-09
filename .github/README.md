@@ -2,7 +2,7 @@
 homeprofiles is a collection of configuration files that locating in your Linux home directory.  
 The purpose is for those who have to work with different os/VM, to initialize a home profile in a few seconds and also update it later with a simple `git pull`.  
 
-Obviously, it's created as a personal collection but could be used as a fork.
+It is created as a personal colllection to sync my configuration between different Ubuntu instances.
 
 ## You will get:
 - with `.bashrc` and `.bash_aliases` you will get a decent bash configuration and some handy aliases
