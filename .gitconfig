@@ -14,3 +14,15 @@
 	name = Wayne Wang
 [core]
     autocrlf = input
+[color]
+    ui = auto
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[init]
+    defaultBranch = master
