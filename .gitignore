@@ -4,6 +4,9 @@
 # gitignore for this repo
 !.gitignore
 
+# installer
+!install.sh
+
 # gitconfig
 !.gitconfig
 

@@ -14,11 +14,9 @@ It is created as a personal colllection to sync my configuration between differe
 To initialize your home directory, start with the following commands.
 
 ```bash
-## Note this will destroy your current configuration file. Make backups if necessary.
-cd ~
-git init .
-git remote add -t \* -f origin git@github.com:atwayne/homeprofiles.git
-git checkout master
+git clone git@github.com:atwayne/homeprofiles.git ~/homeprofiles
+cd ~/homeprofiles
+bash install.sh
 ```
 
 ## Customize:
